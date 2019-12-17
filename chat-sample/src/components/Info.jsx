@@ -51,7 +51,7 @@ const Field = ({ value }) => (
 );
 
 export default class Info extends React.Component {
-    static navigationOptions = { title: "App Info" };
+    static navigationOptions = { title: "Informações" };
 
     componentDidMount() {
         this.props.getSdkInfo();
