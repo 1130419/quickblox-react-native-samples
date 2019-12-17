@@ -18,7 +18,9 @@
     <application
         android:name=".MainApplication"
         android:allowBackup="false"
+        android:icon=""
         android:label="@string/app_name"
+        android:roundIcon=""
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
