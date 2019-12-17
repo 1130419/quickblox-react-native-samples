@@ -19,13 +19,13 @@
         android:name=".MainApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="EurekaCare Chat"
+        android:label="Novatronica Chat"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:label="EurekaCare Chat"
+            android:label="Novatronica Chat"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,5 +1,5 @@
 import React from "react";
-import { ActivityIndicator, KeyboardAvoidingView, Platform, ScrollView, Text, TouchableOpacity, View } from "react-native";
+import { ActivityIndicator, KeyboardAvoidingView, Platform, ScrollView, Text, Image, TouchableOpacity, View } from "react-native";
 import { Form, Field } from "react-final-form";
 
 import FormTextInput from "../FormTextInput";
@@ -103,6 +103,13 @@ export default class Login extends React.Component {
         return (
             <KeyboardAvoidingView behavior={Platform.select({ ios: "padding" })} style={styles.topView}>
                 <ScrollView contentContainerStyle={{ alignItems: "center" }} style={styles.scrollView}>
+                    <Image
+                        source={require("../../assets/novatronica.png")}
+                        style={{
+                            height: 150,
+                            resizeMode: "contain"
+                        }}
+                    ></Image>
                     <View style={{ width: "50%" }}>
                         <Header>Digite o seu login e nome do utilizador</Header>
                     </View>
